@@ -1,0 +1,60 @@
+/* Enhance .course-card appearance */
+.course-card {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+}
+
+.course-card:hover {
+  transform: scale(1.03);
+}
+
+/* Card Image */
+.course-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Card Title Styling */
+.course-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Description or video count */
+.course-card .card-text {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+/* Enroll/View Buttons */
+.course-card .btn {
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+/* Special hover effects for buttons */
+.course-card .btn-outline-secondary:hover,
+.course-card .btn-outline-info:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* Responsive improvements */
+@media (max-width: 576px) {
+  .course-card {
+    margin-bottom: 1rem;
+  }
+
+  .course-card .card-title {
+    font-size: 1rem;
+  }
+
+  .course-card .btn {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,43 @@
+<!-- Sidebar -->
+<div class="sidebar">
+  <div class="top">
+    <div class="logo">
+      <span>Sparx Screw</span>
+    </div>
+    <i class="bx bx-menu" id="btn"></i>
+  </div>
+  <div class="user">
+    <img src="/images/profile.jpeg" alt="User" class="user-img" />
+    <p class="bold"><%= user?.name || 'User' %></p>
+  </div>
+  <ul>
+    <li>
+      <a href="/home" id="studyBtn">
+        <i class="bx bxs-grid-alt"></i>
+        <span class="nav-item">Dashboard</span>
+      </a>
+      <span class="tooltip">Dashboard</span>
+    </li>
+    <li>
+      <a href="/mycourses" id="myBatchesBtn">
+        <i class="bx bxs-shopping-bag"></i>
+        <span class="nav-item">My Courses</span>
+      </a>
+      <span class="tooltip"> My Courses</span>
+    </li>
+    <li>
+      <a href="/settings">
+        <i class="bx bx-cog"></i>
+        <span class="nav-item">Settings</span>
+      </a>
+      <span class="tooltip">Settings</span>
+    </li>
+    <li>
+      <a href="/logout">
+        <i class="bx bx-log-out"></i>
+        <span class="nav-item">Logout</span>
+      </a>
+      <span class="tooltip">Logout</span>
+    </li>
+  </ul>
+</div>

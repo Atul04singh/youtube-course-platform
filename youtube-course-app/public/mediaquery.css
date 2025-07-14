@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    /* max-width: 870px; */
+    max-width: 95%;
+  }
+}
+
+@media (min-width: 860px) {
+  .custom-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns on PC */
+    gap: 1.5rem; /* Equivalent to Tailwind's gap-6 */
+  }
+}
