@@ -68,8 +68,7 @@ A Node.js-based YouTube course viewer and admin system built using Express.js, M
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/youtube-course-platform.git  
-   cd youtube-course-platform
+   git clone https://github.com/Atul04singh/youtube-course-platform
 
 2. Install dependencies:
 
