@@ -86,6 +86,43 @@ Visit: http://localhost:3000
 
 ---
 
+## 📸 Screenshots
+
+<details>
+<summary>🖼 Home Page</summary>
+
+![Home](./screenshots/enroll-courses.png)
+</details>
+
+<details>
+<summary>🖼 My Courses</summary>
+
+![Home](./screenshots/my-courses.png)
+</details>
+<details>
+<summary>🖼 About Course</summary>
+
+![Home](./screenshots/about-course.png)
+</details>
+
+<details>
+<summary>🎥 Course View</summary>
+
+<div align="center">
+  <img src="./screenshots/content-player(1).png" width="45%" />
+  <img src="./screenshots/content-player(2).png" width="45%" />
+</div>
+
+</details>
+
+
+<details>
+<summary>🛠 Settings</summary>
+
+![Admin](./screenshots/settings.png)
+</details>
+
+---
 
 
 
